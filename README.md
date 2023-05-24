@@ -87,6 +87,7 @@ Dans ce contexte, vous pouvez configurer un flux de travail Shuffle pour gérer 
 3.3. Déclenchement d'alertes avec ElastAlert : Lorsque ElastAlert détecte un accès SSH non autorisé en analysant les journaux, il peut déclencher une alerte. Cette alerte peut être transmise à TheHive via une intégration ou un connecteur dédié. 
 
 4. :Prise de décision manuellement:
+
 4.1. Analyse avec Cortex manuellement: Cortex peut être configuré pour analyser automatiquement l'alerte reçue de Wazuh. Il peut effectuer des recherches sur MISP pour obtenir des informations supplémentaires sur l'adresse IP ou le comportement malveillant potentiel.
 
 4.2. Analyse avec Cortex automatisée : Sur la base des résultats de l'analyse de Cortex, vous pouvez configurer des règles dans Shuffle pour prendre des décisions automatisées. Par exemple, si l'analyse détecte une menace grave( elastalert) , Shuffle peut déclencher une action pour bloquer l'adresse IP source au niveau du pare-feu.
@@ -109,6 +110,7 @@ Cet email contient un fichier(filename) et un lien(uri):
 ![image](https://github.com/alarkhis/NG-SOC/assets/58915338/5fd7ce27-988f-4a9b-b026-e261cd787ce4)
 
 La figure ci-dessous exprime un description sur l'email:
+
 *L'expediteur: .com
 *Destinataire: .fr
 *Les adresses ip: (local et publiques)
@@ -118,8 +120,8 @@ La figure ci-dessous exprime un description sur l'email:
 
 ![image](https://github.com/alarkhis/NG-SOC/assets/58915338/546e88f2-2a19-481e-8285-80f0c85ce1e7)
 
-Ci desous une liste des tests fournir par cortex
-
+ voici une liste des tests fournis par Cortex :
+ 
 ![image](https://github.com/alarkhis/NG-SOC/assets/58915338/7f1b5983-0abf-4de6-8c3a-2671e59af866)
 
 
