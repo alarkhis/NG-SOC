@@ -53,5 +53,10 @@ On observe ci-dessous que que Snort, qui est intégré au pare-feu, a détecté 
 On peut conclure que le serveur Wazuh a réussi à détecter la tentative d'accès au pare-feu Pfsense via le service SSH. Cependant, il n'a pas été en mesure de fournir des détails supplémentaires sur les incidents détectés, ce qui signifie qu'il manque des preuves permettant aux administrateurs d'intervenir en cas d'alertes réelles.
 
 Afin de remédier à cette situation, nous avons ajouté la solution SIRP (Security Incident Response Platform), qui permet de traiter et filtrer les incidents afin d'obtenir des informations précieuses. Cette plateforme améliore la capacité de réponse aux incidents en centralisant les données, en fournissant des fonctionnalités d'analyse avancée et en facilitant la collaboration entre les équipes de sécurité. Ainsi, les administrateurs disposent d'une meilleure visibilité et de ressources plus efficaces pour gérer les incidents de manière appropriée.
+
+La figure ci-dessous présente en détail les règles de sécurité collectées par TheHive :
+
+![image](https://github.com/alarkhis/NG-SOC/assets/58915338/d2ae0be8-8c4b-43b0-9a8a-82adb855098b)
+
 V.
 VI.
