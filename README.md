@@ -38,8 +38,20 @@ En raison du manque de ressources, il est difficile de développer pleinement le
 
 1. La tentative de Connexion SSH:
 La tentative de connexion SSH consiste en une succession d'essais visant à découvrir un couple utilisateur/mot de passe valide, dans le but de prendre le contrôle de la machine.
-
+On a accede au parefeu (Pfsense)  à travers le serveur Wazuh.
 ![image](https://github.com/alarkhis/NG-SOC/assets/58915338/bf572eb6-16ad-46bc-843d-044900a8fe8b)
 
+On observe ci-dessous que Wazuh a détecté une tentative d'accès au pare-feu par SSH.
+
+![image](https://github.com/alarkhis/NG-SOC/assets/58915338/05e6ea5a-a21a-4d6d-afde-994c346f177a)
+
+On observe ci-dessous que que Snort, qui est intégré au pare-feu, a détecté une tentative d'accès au pare-feu par SSH.
+
+![image](https://github.com/alarkhis/NG-SOC/assets/58915338/f921877a-9708-4850-8cbf-28058d1e8434)
+
+
+On peut conclure que le serveur Wazuh a réussi à détecter la tentative d'accès au pare-feu Pfsense via le service SSH. Cependant, il n'a pas été en mesure de fournir des détails supplémentaires sur les incidents détectés, ce qui signifie qu'il manque des preuves permettant aux administrateurs d'intervenir en cas d'alertes réelles.
+
+Afin de remédier à cette situation, nous avons ajouté la solution SIRP (Security Incident Response Platform), qui permet de traiter et filtrer les incidents afin d'obtenir des informations précieuses. Cette plateforme améliore la capacité de réponse aux incidents en centralisant les données, en fournissant des fonctionnalités d'analyse avancée et en facilitant la collaboration entre les équipes de sécurité. Ainsi, les administrateurs disposent d'une meilleure visibilité et de ressources plus efficaces pour gérer les incidents de manière appropriée.
 V.
 VI.
