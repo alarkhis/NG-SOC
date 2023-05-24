@@ -69,7 +69,31 @@ On peut conclure que le serveur Wazuh a réussi à détecter la tentative d'acc�
 Cependant, dès le moment de la détection, l'identification du niveau de risque et la réponse à cet incident (telles que les analyses et la détermination des étapes nécessaires pour résoudre l'incident) nécessitent beaucoup de temps, ce qui entraîne des retards.
 
 Afin de réduire ces délais, il est nécessaire d'ajouter une solution d'orchestration, d'automatisation et de réponse aux incidents de sécurité. Cette solution permettra de mettre en place des processus automatisés pour l'analyse, la classification et la réponse aux incidents, accélérant ainsi la résolution des problèmes de sécurité.
-![image](https://github.com/alarkhis/NG-SOC/assets/58915338/d61c6a2e-c488-4185-803c-00705d5b865b)
+
+En raison du manque de ressources, je ne peux pas expliquer cette partie à l'aide de photos, mais je vais vous fournir les étapes pour réaliser cette partie :
+
+Dans ce contexte, vous pouvez configurer un flux de travail Shuffle pour gérer les actions de prise de décision et de réponse automatiques à un accès SSH non autorisé. Voici comment cela pourrait fonctionner :
+
+1. Configuration des règles de détection : Vous pouvez configurer les règles de détection d'accès SSH non autorisé dans Wazuh pour générer des alertes appropriées.
+
+2. Intégration de TheHive, Cortex, MISP et Wazuh avec Shuffle : Vous pouvez intégrer ces outils dans votre flux de travail Shuffle en utilisant les connecteurs et les actions disponibles.
+
+3. Réception de l'alerte : Lorsqu'une alerte est générée par Wazuh, elle peut être reçue automatiquement par TheHive via un connecteur.
+
+3.1. Intégration d'ElastAlert : Vous pouvez ajouter ElastAlert à votre démonstration pour renforcer la détection des accès SSH non autorisés. ElastAlert est un système d'alerte basé sur les journaux (log) qui peut être intégré avec Elasticsearch, ce qui permet de rechercher et d'analyser les journaux de manière puissante.
+
+3.2. Configuration d'ElastAlert : Configurez ElastAlert pour surveiller les journaux d'accès SSH dans Elasticsearch. Vous pouvez définir des règles de détection personnalisées pour identifier les accès non autorisés en utilisant des filtres, des agrégations et des expressions de requête.
+
+3.3. Déclenchement d'alertes avec ElastAlert : Lorsque ElastAlert détecte un accès SSH non autorisé en analysant les journaux, il peut déclencher une alerte. Cette alerte peut être transmise à TheHive via une intégration ou un connecteur dédié. 
+Déclenchement d'alertes avec ElastAlert : Lorsque ElastAlert détecte un accès SSH non autorisé en analysant les journaux, il peut déclencher une alerte. Cette alerte peut être transmise à TheHive via une intégration ou un connecteur dédié.
+
+4. Analyse avec Cortex : Cortex peut être configuré pour analyser automatiquement l'alerte reçue de Wazuh. Il peut effectuer des recherches sur MISP pour obtenir des informations supplémentaires sur l'adresse IP ou le comportement malveillant potentiel.
+
+5. Prise de décision automatisée : Sur la base des résultats de l'analyse de Cortex, vous pouvez configurer des règles dans Shuffle pour prendre des décisions automatisées. Par exemple, si l'analyse détecte une menace grave( elastalert) , Shuffle peut déclencher une action pour bloquer l'adresse IP source au niveau du pare-feu.
+
+6. Actions supplémentaires : Shuffle peut également être configuré pour prendre d'autres actions en fonction des résultats de l'analyse. Par exemple, il peut ajouter l'adresse IP à une liste de surveillance pour une investigation plus approfondie ou lancer une recherche supplémentaire sur MISP pour obtenir plus d'informations.
+
+En automatisant ces actions avec Shuffle, vous pouvez accélérer le processus de prise de décision et de réponse aux accès SSH non autorisés, en réduisant le temps de réaction et en permettant une réponse plus cohérente et efficace aux menaces potentielles.
 
 2. L’hameçonnage par mail:
 
