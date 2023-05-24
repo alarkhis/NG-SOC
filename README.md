@@ -24,3 +24,7 @@ SIRP:Plateforme d’intervention en cas d’incident de sécurité permettant de
 SOAR:Les outils open source tels que SOAR (Security Orchestration, Automation, and Response) permettent d'automatiser les tâches de sécurité, d'orchestrer les processus de réponse aux incidents et de rationaliser les opérations de sécurité.
 
  En plus des outils mentionnés précédemment, il existe d'autres outils et technologies qui peupeuvent être utilisés pour réaliser un NG-SOC (Next-Generation Security Operations Center).
+ 
+ III.L'architecture 
+![image](https://github.com/alarkhis/NG-SOC/assets/58915338/361d9974-9855-4266-9d0a-bd877fc0fb58)
+
