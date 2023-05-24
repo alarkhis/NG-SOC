@@ -2,12 +2,12 @@
 Le deploiement du Next Generation Security operation Center (NG-SOC) Open source:
 
 
-I. Presentation du Next Generation Security operation Center (NG-SOC) Open source:
+**I. Presentation du Next Generation Security operation Center (NG-SOC) Open source:**
 Le Security Operations Center (SOC) est une plateforme où les systèmes d'information de l'entreprise sont surveillés, évalués et défendus contre les failles de sécurité. Il a pour objectif d'identifier et de réduire de manière proactive les risques de sécurité, en prenant des mesures préventives pour protéger les actifs numériques de l'entreprise.
 
 L'ajout du terme "NG" (Next Generation) au SOC (Security Operations Center) fait référence à une évolution et à une amélioration significatives du concept traditionnel de SOC. Il indique que le NG-SOC adopte des technologies et des approches avancées pour faire face aux nouvelles menaces et défis en matière de sécurité.
 
-II.Les outils open source utilisees:
+**II.Les outils open source utilisees:**
 Voici quelques exemples d'outils open source qui peuvent être utilisés pour déployer un NG-SOC (Next-Generation Security Operations Center) :
 
 SIEM: Un système de gestion des informations et des événements de sécurité qui collecte, agrège, indexe et analyse les données de sécurité pour détecter les intrusions, identifier les menaces et repérer d'éventuelles anomalies de comportement qui pourraient se produire.
@@ -26,18 +26,18 @@ SOAR:Les outils open source tels que SOAR (Security Orchestration, Automation, a
 
  En plus des outils mentionnés précédemment, il existe d'autres outils et technologies qui peupeuvent être utilisés pour réaliser un NG-SOC (Next-Generation Security Operations Center).
  
- III.L'architecture 
+**III.L'architecture**
 
 L'architecture ci-dessous represente les outils utilisees pour deploier NG-SOC
 On a integre Snort avec parefeu pour renforcer la sécurité de notre réseau en détectant et en bloquant rapidement les menaces potentielles.
 
 ![image](https://github.com/alarkhis/NG-SOC/assets/58915338/361d9974-9855-4266-9d0a-bd877fc0fb58)
 
-IV. Test
+**IV. Test**
 
 En raison du manque de ressources, il est difficile de développer pleinement le potentiel de ce projet. Donc c'est à vous de devlopper.
 
-IV.1. La tentative de Connexion SSH:
+**IV.1. La tentative de Connexion SSH:**
 La tentative de connexion SSH consiste en une succession d'essais visant à découvrir un couple utilisateur/mot de passe valide, dans le but de prendre le contrôle de la machine.
 On a accede au parefeu (Pfsense)  à travers le serveur Wazuh.
 
@@ -106,5 +106,3 @@ L'hameçonnage reste le vecteur d'attaque le plus courant pour les brèches réu
 
 
 
-V.
-VI.
