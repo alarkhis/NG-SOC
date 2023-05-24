@@ -109,7 +109,7 @@ Cet email contient un fichier(filename) et un lien(uri):
 
 ![image](https://github.com/alarkhis/NG-SOC/assets/58915338/5fd7ce27-988f-4a9b-b026-e261cd787ce4)
 
-La figure ci-dessous exprime un description sur l'email:
+La figure ci-dessous présente une description de l'e-mail et des observables détectés:
 
 *L'expediteur: .com
 
@@ -126,7 +126,10 @@ La figure ci-dessous exprime un description sur l'email:
 
 ![image](https://github.com/alarkhis/NG-SOC/assets/58915338/546e88f2-2a19-481e-8285-80f0c85ce1e7)
 
- voici une liste des tests fournis par Cortex :
+voici l'interface de Cortex qui répertorie les exécutions du test :
+ 
+![image](https://github.com/alarkhis/NG-SOC/assets/58915338/bccc4499-ffd7-4114-b10e-8d6ec339c07b)
+
  
 ![image](https://github.com/alarkhis/NG-SOC/assets/58915338/7f1b5983-0abf-4de6-8c3a-2671e59af866)
 
