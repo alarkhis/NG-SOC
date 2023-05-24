@@ -8,6 +8,7 @@ Le Security Operations Center (SOC) est une plateforme où les systèmes d'infor
 L'ajout du terme "NG" (Next Generation) au SOC (Security Operations Center) fait référence à une évolution et à une amélioration significatives du concept traditionnel de SOC. Il indique que le NG-SOC adopte des technologies et des approches avancées pour faire face aux nouvelles menaces et défis en matière de sécurité.
 
 **II.Les outils open source utilisees:**
+
 Voici quelques exemples d'outils open source qui peuvent être utilisés pour déployer un NG-SOC (Next-Generation Security Operations Center) :
 
 SIEM: Un système de gestion des informations et des événements de sécurité qui collecte, agrège, indexe et analyse les données de sécurité pour détecter les intrusions, identifier les menaces et repérer d'éventuelles anomalies de comportement qui pourraient se produire.
