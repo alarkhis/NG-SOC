@@ -112,11 +112,17 @@ Cet email contient un fichier(filename) et un lien(uri):
 La figure ci-dessous exprime un description sur l'email:
 
 *L'expediteur: .com
+
 *Destinataire: .fr
+
 *Les adresses ip: (local et publiques)
+
 *Les domaines (DNS) 
+
 *Fichiers: 3 taches
+
 *URI: thehive
+
 
 ![image](https://github.com/alarkhis/NG-SOC/assets/58915338/546e88f2-2a19-481e-8285-80f0c85ce1e7)
 
