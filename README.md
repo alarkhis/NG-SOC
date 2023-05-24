@@ -98,8 +98,14 @@ En automatisant ces actions avec Shuffle, vous pouvez accélérer le processus d
 **IV.2. L’hameçonnage par mail:**
 
 L'hameçonnage reste le vecteur d'attaque le plus courant pour les brèches réussies. Cependant, enquêter sur les courriels suspects implique des tâches fastidieuses telles que l'analyse des en-têtes et des pièces jointes, la vérification des adresses URL ou le suivi des demandes suspectes de renseignements sensibles.
+ 
+J'ai décidé d'utiliser l'hameçonnage par e-mail comme deuxième test pour expliquer l'automatisation et l'orchestration avec SOAR (Shuffle) et les gains de temps.
 
+Cidessous on exprime l'architecture de flux que l'email a traversée pour être testé
 ![image](https://github.com/alarkhis/NG-SOC/assets/58915338/9dfdb5bb-968a-49e0-b6c9-96ff5ae14d7b)
+
+Cet email contient un fichier et un lien:
+![image](https://github.com/alarkhis/NG-SOC/assets/58915338/5fd7ce27-988f-4a9b-b026-e261cd787ce4)
 
 
 
