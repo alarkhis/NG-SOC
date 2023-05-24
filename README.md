@@ -1,4 +1,6 @@
 # NG-SOC
+Le deploiement du Next Generation Security operation Center (NG-SOC) Open source:
+
 
 I. Presentation du Next Generation Security operation Center (NG-SOC) Open source:
 Le Security Operations Center (SOC) est une plateforme où les systèmes d'information de l'entreprise sont surveillés, évalués et défendus contre les failles de sécurité. Il a pour objectif d'identifier et de réduire de manière proactive les risques de sécurité, en prenant des mesures préventives pour protéger les actifs numériques de l'entreprise.
@@ -7,7 +9,6 @@ L'ajout du terme "NG" (Next Generation) au SOC (Security Operations Center) fait
 
 II.Les outils open source utilisees:
 Voici quelques exemples d'outils open source qui peuvent être utilisés pour déployer un NG-SOC (Next-Generation Security Operations Center) :
-
 
 SIEM: Un système de gestion des informations et des événements de sécurité qui collecte, agrège, indexe et analyse les données de sécurité pour détecter les intrusions, identifier les menaces et repérer d'éventuelles anomalies de comportement qui pourraient se produire.
 
@@ -52,11 +53,20 @@ On observe ci-dessous que que Snort, qui est intégré au pare-feu, a détecté 
 
 On peut conclure que le serveur Wazuh a réussi à détecter la tentative d'accès au pare-feu Pfsense via le service SSH. Cependant, il n'a pas été en mesure de fournir des détails supplémentaires sur les incidents détectés, ce qui signifie qu'il manque des preuves permettant aux administrateurs d'intervenir en cas d'alertes réelles.
 
-Afin de remédier à cette situation, nous avons ajouté la solution SIRP (Security Incident Response Platform), qui permet de traiter et filtrer les incidents afin d'obtenir des informations précieuses. Cette plateforme améliore la capacité de réponse aux incidents en centralisant les données, en fournissant des fonctionnalités d'analyse avancée et en facilitant la collaboration entre les équipes de sécurité. Ainsi, les administrateurs disposent d'une meilleure visibilité et de ressources plus efficaces pour gérer les incidents de manière appropriée.
+Afin de remédier à cette situation, il a été ajouté les solutions MISP et Cortex au sein de TheHive.
 
-La figure ci-dessous présente en détail les règles de sécurité collectées par TheHive :
+MISP (Malware Information Sharing Platform) est un système open source de partage d'informations sur les menaces. En intégrant MISP à TheHive, on a maintenant accès à une base de données étendue d'indicateurs de compromission, de signatures de malwares et d'autres renseignements sur les menaces. Cela permet d'enrichir les incidents détectés avec des informations contextuelles précieuses, facilitant ainsi l'analyse et la prise de décision.
+
+Cortex, quant à lui, est un outil d'analyse automatisée des menaces. En l'intégrant à TheHive, on bénéficie de capacités avancées d'analyse et de corrélation des données, ce qui permet d'accélérer le processus de réponse aux incidents. Cortex utilise des analyseurs automatisés pour extraire des informations pertinentes à partir des données collectées, générant ainsi des rapports détaillés et des actions recommandées pour résoudre les incidents plus rapidement et efficacement.
+
+En ajoutant MISP et Cortex à la plateforme TheHive, on renforce la capacité à traiter les incidents de sécurité de manière plus proactive et à prendre des mesures plus rapides et précises. Grâce à une meilleure collaboration et à des fonctionnalités d'analyse avancée, on améliore la visibilité, la précision et l'efficacité de la réponse aux incidents, réduisant ainsi le temps de résolution global et minimisant les impacts sur l'environnement informatique.
+
+La figure ci-dessous présente en détail les règles de sécurité collectées par TheHive:
 
 ![image](https://github.com/alarkhis/NG-SOC/assets/58915338/d2ae0be8-8c4b-43b0-9a8a-82adb855098b)
+
+2. L’hameçonnage par mail:
+
 
 V.
 VI.
