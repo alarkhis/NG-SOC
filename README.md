@@ -130,4 +130,7 @@ La figure ci-dessous exprime un description sur l'email:
  
 ![image](https://github.com/alarkhis/NG-SOC/assets/58915338/7f1b5983-0abf-4de6-8c3a-2671e59af866)
 
+La figure ci-dessous représente l'interface de Cortex qui affiche la détection d'une adresse IP malveillante et la vérification via Abuse IPDB:
+
+![image](https://github.com/alarkhis/NG-SOC/assets/58915338/cbf69e07-8f80-4078-a27b-33f2dd9d75de)
 
