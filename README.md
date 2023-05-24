@@ -104,10 +104,22 @@ J'ai décidé d'utiliser l'hameçonnage par e-mail comme deuxième test pour exp
 Cidessous on exprime l'architecture de flux que l'email a traversée pour être testé
 ![image](https://github.com/alarkhis/NG-SOC/assets/58915338/9dfdb5bb-968a-49e0-b6c9-96ff5ae14d7b)
 
-Cet email contient un fichier et un lien:
+Cet email contient un fichier(filename) et un lien(uri):
+
 ![image](https://github.com/alarkhis/NG-SOC/assets/58915338/5fd7ce27-988f-4a9b-b026-e261cd787ce4)
 
+La figure ci-dessous exprime un description sur l'email:
+*L'expediteur: .com
+*Destinataire: .fr
+*Les adresses ip: (local et publiques)
+*Les domaines (DNS) 
+*Fichiers: 3 taches
+*URI: thehive
 
+![image](https://github.com/alarkhis/NG-SOC/assets/58915338/546e88f2-2a19-481e-8285-80f0c85ce1e7)
 
+Ci desous une liste des tests fournir par cortex
+
+![image](https://github.com/alarkhis/NG-SOC/assets/58915338/7f1b5983-0abf-4de6-8c3a-2671e59af866)
 
 
