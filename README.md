@@ -55,12 +55,6 @@ On observe ci-dessous que que Snort, qui est intégré au pare-feu, a détecté 
 
 On peut conclure que le serveur Wazuh a réussi à détecter la tentative d'accès au pare-feu Pfsense via le service SSH. Cependant, il n'a pas été en mesure de fournir des détails supplémentaires sur les incidents détectés, ce qui signifie qu'il manque des preuves permettant aux administrateurs d'intervenir en cas d'alertes réelles.
 
-Afin de remédier à cette situation, il a été ajouté les solutions MISP et Cortex au sein de TheHive.
-
-MISP (Malware Information Sharing Platform) est un système open source de partage d'informations sur les menaces. En intégrant MISP à TheHive, on a maintenant accès à une base de données étendue d'indicateurs de compromission, de signatures de malwares et d'autres renseignements sur les menaces. Cela permet d'enrichir les incidents détectés avec des informations contextuelles précieuses, facilitant ainsi l'analyse et la prise de décision.
-
-Cortex, quant à lui, est un outil d'analyse automatisée des menaces. En l'intégrant à TheHive, on bénéficie de capacités avancées d'analyse et de corrélation des données, ce qui permet d'accélérer le processus de réponse aux incidents. Cortex utilise des analyseurs automatisés pour extraire des informations pertinentes à partir des données collectées, générant ainsi des rapports détaillés et des actions recommandées pour résoudre les incidents plus rapidement et efficacement.
-
 En ajoutant MISP et Cortex à la plateforme TheHive, on renforce la capacité à traiter les incidents de sécurité de manière plus proactive et à prendre des mesures plus rapides et précises. Grâce à une meilleure collaboration et à des fonctionnalités d'analyse avancée, on améliore la visibilité, la précision et l'efficacité de la réponse aux incidents, réduisant ainsi le temps de résolution global et minimisant les impacts sur l'environnement informatique.
 
 La figure ci-dessous présente en détail les règles de sécurité collectées par TheHive:
@@ -72,7 +66,7 @@ Cependant, dès le moment de la détection, l'identification du niveau de risque
 
 Afin de réduire ces délais, il est nécessaire d'ajouter une solution d'orchestration, d'automatisation et de réponse aux incidents de sécurité. Cette solution permettra de mettre en place des processus automatisés pour l'analyse, la classification et la réponse aux incidents, accélérant ainsi la résolution des problèmes de sécurité.
 
-En raison du manque de ressources, je ne peux pas expliquer cette partie à l'aide de photos, mais je vais vous fournir les étapes pour réaliser cette partie :
+***En raison du manque de ressources, je ne peux pas expliquer cette partie à l'aide de photos, mais je vais vous fournir les étapes pour réaliser cette partie :
 
 Dans ce contexte, vous pouvez configurer un flux de travail Shuffle pour gérer les actions de prise de décision et de réponse automatiques à un accès SSH non autorisé. Voici comment cela pourrait fonctionner :
 
