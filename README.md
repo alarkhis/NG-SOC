@@ -37,7 +37,7 @@ IV. Test
 
 En raison du manque de ressources, il est difficile de développer pleinement le potentiel de ce projet. Donc c'est à vous de devlopper.
 
-1. La tentative de Connexion SSH:
+IV.1. La tentative de Connexion SSH:
 La tentative de connexion SSH consiste en une succession d'essais visant à découvrir un couple utilisateur/mot de passe valide, dans le but de prendre le contrôle de la machine.
 On a accede au parefeu (Pfsense)  à travers le serveur Wazuh.
 
@@ -96,7 +96,7 @@ Déclenchement d'alertes avec ElastAlert : Lorsque ElastAlert détecte un accès
 
 En automatisant ces actions avec Shuffle, vous pouvez accélérer le processus de prise de décision et de réponse aux accès SSH non autorisés, en réduisant le temps de réaction et en permettant une réponse plus cohérente et efficace aux menaces potentielles.
 
-2. L’hameçonnage par mail:
+****IV.2. L’hameçonnage par mail:
 
 L'hameçonnage reste le vecteur d'attaque le plus courant pour les brèches réussies. Cependant, enquêter sur les courriels suspects implique des tâches fastidieuses telles que l'analyse des en-têtes et des pièces jointes, la vérification des adresses URL ou le suivi des demandes suspectes de renseignements sensibles.
 
