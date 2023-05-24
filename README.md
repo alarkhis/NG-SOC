@@ -65,7 +65,20 @@ La figure ci-dessous présente en détail les règles de sécurité collectées 
 
 ![image](https://github.com/alarkhis/NG-SOC/assets/58915338/d2ae0be8-8c4b-43b0-9a8a-82adb855098b)
 
+On peut conclure que le serveur Wazuh a réussi à détecter la tentative d'accès par le service SSH et a envoyé les journaux au serveur TheHive. Par la suite, TheHive a procédé au traitement et à l'identification des incidents en les classant avec le niveau de risque moyen « M » , représenté par la couleur jaune. 
+Cependant, dès le moment de la détection, l'identification du niveau de risque et la réponse à cet incident (telles que les analyses et la détermination des étapes nécessaires pour résoudre l'incident) nécessitent beaucoup de temps, ce qui entraîne des retards.
+
+Afin de réduire ces délais, il est nécessaire d'ajouter une solution d'orchestration, d'automatisation et de réponse aux incidents de sécurité. Cette solution permettra de mettre en place des processus automatisés pour l'analyse, la classification et la réponse aux incidents, accélérant ainsi la résolution des problèmes de sécurité.
+![image](https://github.com/alarkhis/NG-SOC/assets/58915338/d61c6a2e-c488-4185-803c-00705d5b865b)
+
 2. L’hameçonnage par mail:
+
+L'hameçonnage reste le vecteur d'attaque le plus courant pour les brèches réussies. Cependant, enquêter sur les courriels suspects implique des tâches fastidieuses telles que l'analyse des en-têtes et des pièces jointes, la vérification des adresses URL ou le suivi des demandes suspectes de renseignements sensibles.
+
+![image](https://github.com/alarkhis/NG-SOC/assets/58915338/9dfdb5bb-968a-49e0-b6c9-96ff5ae14d7b)
+
+
+
 
 
 V.
