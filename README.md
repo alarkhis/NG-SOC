@@ -66,7 +66,7 @@ Cependant, dès le moment de la détection, l'identification du niveau de risque
 
 Afin de réduire ces délais, il est nécessaire d'ajouter une solution d'orchestration, d'automatisation et de réponse aux incidents de sécurité. Cette solution permettra de mettre en place des processus automatisés pour l'analyse, la classification et la réponse aux incidents, accélérant ainsi la résolution des problèmes de sécurité.
 
-***En raison du manque de ressources, je ne peux pas expliquer cette partie à l'aide de photos, mais je vais vous fournir les étapes pour réaliser cette partie :
+**En raison du manque de ressources, je ne peux pas expliquer cette partie à l'aide de photos, mais je vais vous fournir les étapes pour réaliser cette partie :**
 
 Dans ce contexte, vous pouvez configurer un flux de travail Shuffle pour gérer les actions de prise de décision et de réponse automatiques à un accès SSH non autorisé. Voici comment cela pourrait fonctionner :
 
