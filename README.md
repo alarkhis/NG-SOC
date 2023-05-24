@@ -40,6 +40,7 @@ En raison du manque de ressources, il est difficile de développer pleinement le
 1. La tentative de Connexion SSH:
 La tentative de connexion SSH consiste en une succession d'essais visant à découvrir un couple utilisateur/mot de passe valide, dans le but de prendre le contrôle de la machine.
 On a accede au parefeu (Pfsense)  à travers le serveur Wazuh.
+
 ![image](https://github.com/alarkhis/NG-SOC/assets/58915338/bf572eb6-16ad-46bc-843d-044900a8fe8b)
 
 On observe ci-dessous que Wazuh a détecté une tentative d'accès au pare-feu par SSH.
