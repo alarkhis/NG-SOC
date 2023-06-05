@@ -126,7 +126,7 @@ La figure ci-dessous présente une description de l'e-mail et des observables d�
 
 ![image](https://github.com/alarkhis/NG-SOC/assets/58915338/546e88f2-2a19-481e-8285-80f0c85ce1e7)
 
-voici l'interface de Cortex qui répertorie les exécutions du test :
+La figure ci-dessous répertorie les exécutions du test d'apres Cortex:
  
 ![image](https://github.com/alarkhis/NG-SOC/assets/58915338/bccc4499-ffd7-4114-b10e-8d6ec339c07b)
 
