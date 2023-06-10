@@ -32,7 +32,8 @@ SOAR:Les outils open source tels que SOAR (Security Orchestration, Automation, a
 L'architecture ci-dessous represente les outils utilisees pour deploier NG-SOC
 On a integre Snort avec parefeu pour renforcer la sécurité de notre réseau en détectant et en bloquant rapidement les menaces potentielles.
 
-![image](https://github.com/alarkhis/NG-SOC/assets/58915338/361d9974-9855-4266-9d0a-bd877fc0fb58)
+![soc archt](https://github.com/alarkhis/NG-SOC/assets/58915338/4716f2e6-119e-4760-8c8b-2ef5665a0532)
+
 
 **IV. Test**
 
@@ -49,11 +50,11 @@ On a accede au parefeu (Pfsense)  à travers le serveur Wazuh.
 
 On observe ci-dessous que Wazuh a détecté une tentative d'accès au pare-feu par SSH.
 
-![image](https://github.com/alarkhis/NG-SOC/assets/58915338/05e6ea5a-a21a-4d6d-afde-994c346f177a)
+![image](https://github.com/alarkhis/NG-SOC/assets/58915338/0f242ab4-824b-4d15-bc54-a8bf8da319eb)
 
 On observe ci-dessous que que Snort, qui est intégré au pare-feu, a détecté une tentative d'accès au pare-feu par SSH.
 
-![image](https://github.com/alarkhis/NG-SOC/assets/58915338/f921877a-9708-4850-8cbf-28058d1e8434)
+![image](https://github.com/alarkhis/NG-SOC/assets/58915338/6f5c0247-a75c-4566-8387-6c4276ac75b4)
 
 
 On peut conclure que le serveur Wazuh a réussi à détecter la tentative d'accès au pare-feu Pfsense via le service SSH. Cependant, il n'a pas été en mesure de fournir des détails supplémentaires sur les incidents détectés, ce qui signifie qu'il manque des preuves permettant aux administrateurs d'intervenir en cas d'alertes réelles.
@@ -62,7 +63,7 @@ En ajoutant MISP et Cortex à la plateforme TheHive, on renforce la capacité à
 
 La figure ci-dessous présente en détail les règles de sécurité collectées par TheHive:
 
-![image](https://github.com/alarkhis/NG-SOC/assets/58915338/d2ae0be8-8c4b-43b0-9a8a-82adb855098b)
+![image](https://github.com/alarkhis/NG-SOC/assets/58915338/90da6972-2faf-4bca-8ad8-b6d1368b8248)
 
 On peut conclure que le serveur Wazuh a réussi à détecter la tentative d'accès par le service SSH et a envoyé les journaux au serveur TheHive. Par la suite, TheHive a procédé au traitement et à l'identification des incidents en les classant avec le niveau de risque moyen « M » , représenté par la couleur jaune. 
 
