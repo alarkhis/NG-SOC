@@ -63,7 +63,7 @@ En ajoutant MISP et Cortex à la plateforme TheHive, on renforce la capacité à
 
 La figure ci-dessous présente en détail les règles de sécurité collectées par TheHive:
 
-![image](https://github.com/alarkhis/NG-SOC/assets/58915338/90da6972-2faf-4bca-8ad8-b6d1368b8248)
+![image](https://github.com/alarkhis/NG-SOC/assets/58915338/6b4b1b05-84ea-487e-b17d-db58e505b22b)
 
 On peut conclure que le serveur Wazuh a réussi à détecter la tentative d'accès par le service SSH et a envoyé les journaux au serveur TheHive. Par la suite, TheHive a procédé au traitement et à l'identification des incidents en les classant avec le niveau de risque moyen « M » , représenté par la couleur jaune. 
 
