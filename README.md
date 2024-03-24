@@ -139,14 +139,11 @@ La figure ci-dessous représente l'interface de Cortex qui affiche la détection
 ![image](https://github.com/alarkhis/NG-SOC/assets/58915338/cbf69e07-8f80-4078-a27b-33f2dd9d75de)
 
 Les figures ci-dessous présentent la détection d'une activité malveillante et sa vérification à l'aide du lien URL scan:
+La solution Shuffle a detecté, traité et analysé le mail et peut egalement réagir aux incident (par exemple: bloquer les adresses IP, supprimer les mails).
+Cependant, chaque fois q'on a détecté une menace, on doit 
 
 ![image](https://github.com/alarkhis/NG-SOC/assets/58915338/3c57389f-2642-43b1-a4d4-b14e2429299d)
 
-La solution Shuffle a détecté, traité et analysé le mail reçu et peut également réagir aux incidents (par exemple : bloquer les adresses IP, supprimer les mails).
 
-Cependant, chaque fois qu’on a détecté une menace, on doit accéder aux sites officiels pour vérifier qu’il s’agit d’une menace réelle et cela prend beaucoup de temps.
-
-Donc il est nécessaire de trouver une solution qui vérifie et cherche des indicateurs de compromis périodiquement d’une part et d’être fiable d’autre part. 
-Cette solution est MISP.
 ![image](https://github.com/alarkhis/NG-SOC/assets/58915338/dcbf41e8-8425-4fcb-b9cc-1ccd8c0011c3)
 
