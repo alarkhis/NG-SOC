@@ -1,13 +1,13 @@
 # NG-SOC
-**Le deploiement du Next Generation Security operation Center (NG-SOC) Open source:**
+#Le deploiement du Next Generation Security operation Center (NG-SOC) Open source:**
 
 
-**I. Presentation du Next Generation Security operation Center (NG-SOC) Open source:**
+#I. Presentation du Next Generation Security operation Center (NG-SOC) Open source:**
 Le Security Operations Center (SOC) est une plateforme où les systèmes d'information de l'entreprise sont surveillés, évalués et défendus contre les failles de sécurité. Il a pour objectif d'identifier et de réduire de manière proactive les risques de sécurité, en prenant des mesures préventives pour protéger les actifs numériques de l'entreprise.
 
 L'ajout du terme "NG" (Next Generation) au SOC (Security Operations Center) fait référence à une évolution et à une amélioration significatives du concept traditionnel de SOC. Il indique que le NG-SOC adopte des technologies et des approches avancées pour faire face aux nouvelles menaces et défis en matière de sécurité.
 
-**II.Les outils open source utilisees:**
+#II.Les outils open source utilisees:**
 
 Voici quelques exemples d'outils open source qui peuvent être utilisés pour déployer un NG-SOC (Next-Generation Security Operations Center) :
 
@@ -27,7 +27,7 @@ SOAR:Les outils open source tels que SOAR (Security Orchestration, Automation, a
 
  En plus des outils mentionnés précédemment, il existe d'autres outils et technologies qui peupeuvent être utilisés pour réaliser un NG-SOC (Next-Generation Security Operations Center).
  
-**III.L'architecture**
+#III.L'architecture**
 
 L'architecture ci-dessous represente les outils utilisees pour deploier NG-SOC
 On a integre Snort avec parefeu pour renforcer la sécurité de notre réseau en détectant et en bloquant rapidement les menaces potentielles.
@@ -35,11 +35,11 @@ On a integre Snort avec parefeu pour renforcer la sécurité de notre réseau en
 ![soc archt](https://github.com/alarkhis/NG-SOC/assets/58915338/4716f2e6-119e-4760-8c8b-2ef5665a0532)
 
 
-**IV. Test**
+#IV. Test**
 
 En raison du manque de ressources, il est difficile de développer pleinement le potentiel de ce projet. Donc c'est à vous de devlopper.
 
-**IV.1. La tentative de Connexion SSH:**
+#IV.1. La tentative de Connexion SSH:**
 
 Comme je l'ai déjà mentionné, en raison du manque de ressources, je vais utiliser la tentative de connexion SSH comme exemple de test.
 
@@ -97,7 +97,7 @@ Dans ce contexte, vous pouvez configurer un flux de travail Shuffle pour gérer 
 
 En automatisant ces actions avec Shuffle, vous pouvez accélérer le processus de prise de décision et de réponse aux accès SSH non autorisés, en réduisant le temps de réaction et en permettant une réponse plus cohérente et efficace aux menaces potentielles.
 
-**IV.2. L’hameçonnage par mail:**
+#IV.2. L’hameçonnage par mail:**
 
 L'hameçonnage reste le vecteur d'attaque le plus courant pour les brèches réussies. Cependant, enquêter sur les courriels suspects implique des tâches fastidieuses telles que l'analyse des en-têtes et des pièces jointes, la vérification des adresses URL ou le suivi des demandes suspectes de renseignements sensibles.
  
