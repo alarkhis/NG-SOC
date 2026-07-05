@@ -8,12 +8,6 @@
 
 ## 📝 Project Overview
 
-* **Author:** Ala din Rkhis
-* **Academic Year:** 2021-2022
-* **Host Institution:** Groupe HAMMAMI
-* **Academic Institution:** ISET Sfax
-* **Academic Supervisor:** Azer Zairi
-
 This engineering project focuses on the end-to-end architectural design, network segmentation, and deployment of an open-source **Next-Generation Security Operations Center (NG-SOC)**. The platform is engineered to transition legacy security monitoring from reactive alert logging to an automated, intelligence-driven, and proactive defense system. By consolidating decentralized infrastructure telemetry into a unified analysis plane, this project successfully demonstrates a scalable framework to drastically minimize **Mean Time to Detect (MTTD)** and **Mean Time to Respond (MTTR)**.
 
 ---
